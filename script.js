@@ -125,7 +125,7 @@ buttons.addEventListener('click', function (event) {
         if (display.textContent === '0') {
           display.textContent = buttonContent;
         } else {
-          display.textContent.textContent + buttonContent;
+          display.textContent = textContent + buttonContent;
         }
       }
     }
